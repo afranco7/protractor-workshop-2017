@@ -1,0 +1,25 @@
+{
+  "name": "protractor",
+  "version": "1.0.0",
+  "description": "This is a Workshop about Protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afranco7/protractor-workshop-2017.git"
+  },
+  "keywords": [
+    "ui-testing",
+    "dojo",
+    "practice",
+    "protractor"
+  ],
+  "author": "Alejandro Franco afranco7@gmail.com afranco7",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afranco7/protractor-workshop-2017/issues"
+  },
+  "homepage": "https://github.com/afranco7/protractor-workshop-2017#readme"
+}
