@@ -1,5 +1,5 @@
 {
-  "name": "protractor",
+  "name": "protractor-workshop-2017",
   "version": "1.0.0",
   "description": "This is a Workshop about Protractor",
   "main": "index.js",
@@ -27,6 +27,10 @@
   "homepage": "https://github.com/afranco7/protractor-workshop-2017#readme",
   "devDependencies": {
     "@types/jasminewd2": "^2.0.3",
+    "jasmine-spec-reporter": "^4.2.1",
     "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "protractor": "^5.1.2"
   }
 }
