@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "prebuild": "npm run clean",
-    "build": "node_modules/.bin/tsc",
+    "build": "tsc",
     "test": "npm run build && protractor dist/protractor/config.js"
   },
   "repository": {
