@@ -4,6 +4,7 @@
   "description": "This is a Workshop about Protractor",
   "main": "index.js",
   "scripts": {
+	"lint": "tslint --type-check --project tsconfig.json protractor/**/*.ts test/**/*.ts src/**/*.ts",
     "clean": "rm -rf dist",
     "prebuild": "npm run clean",
     "build": "tsc",
@@ -34,6 +35,8 @@
     "typescript": "^2.5.3"
   },
   "dependencies": {
-    "protractor": "^5.1.2"
+    "protractor": "^5.1.2",
+    "tslint": "^5.7.0",
+    "tslint-config-airbnb": "^5.3.0"
   }
 }
