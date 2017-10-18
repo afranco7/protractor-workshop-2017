@@ -24,7 +24,6 @@ describe('Buy a t-shirt', () => {
   const shippingStepPage: ShippingStepPage  = new ShippingStepPage();
   const summaryStepPage: SummaryStepPage  = new SummaryStepPage();
   const signInStepPage: SignInStepPage  = new SignInStepPage();
-
   it('then should be bought a t-shirt', async () => {
     await browser.get('http://automationpractice.com/');
     await menuContentPage.goToTShirtMenu();
