@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "tslint --type-check --project tsconfig.json protractor/**/*.ts test/**/*.ts src/**/*.ts",
-    "clean": "rm -rf dist",
+    "clean": "rm -rf dist reports",
     "prebuild": "npm run clean",
     "build": "tsc",
     "test": "npm run test:headless",
@@ -31,6 +31,7 @@
   "homepage": "https://github.com/afranco7/protractor-workshop-2017#readme",
   "devDependencies": {
     "@types/jasminewd2": "^2.0.3",
+    "jasmine-awesome-report": "0.0.2",
     "jasmine-spec-reporter": "^4.2.1",
     "tslint": "^5.7.0",
     "tslint-config-airbnb": "^5.3.0",
